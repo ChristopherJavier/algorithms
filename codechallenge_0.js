@@ -21,7 +21,7 @@ const snackTotal = (x, y) => {
             console.log("No valid code")
     }
 
-    total = price * y;
+    total = price * y
     return console.log(`Total: R$${total.toFixed(2)}`)
 }
 
